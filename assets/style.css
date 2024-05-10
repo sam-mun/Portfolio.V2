@@ -28,3 +28,34 @@
     text-decoration-color: rgb(0, 0, 0);
     text-underline-offset: 0.4em;
 }
+
+/* card style */
+.col-2 {
+    transition: ease-in-out 250ms;
+}
+
+.col-2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card-1 {
+    background-image: url(images/azplathvac.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-2 {
+    background-image: url(images/fblasub.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-3 {
+    background-image: url(images/pdcircle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

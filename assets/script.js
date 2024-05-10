@@ -1,6 +1,6 @@
 // typewriter animation
 const h1 = document.querySelector(".typewriter");
-const text = "hello world.";
+const text = "samuel mun";
 
 function textTypingEffect(element, text, i = 0) {
     if(i === 0) {
