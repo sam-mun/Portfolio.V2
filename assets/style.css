@@ -1,0 +1,30 @@
+* {
+    
+}
+
+/* navbar transition */
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.fadeInUp-animation {
+    animation: 1.5s fadeInUp;
+}
+
+.nav-link {
+    text-decoration: underline 0.15em transparent;
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 300ms, text-underline-offset 300ms;
+}
+
+.nav-link:hover {
+    text-decoration-color: rgb(0, 0, 0);
+    text-underline-offset: 0.4em;
+}
